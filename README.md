@@ -16,7 +16,7 @@
 - Paneles en acordeón
 - Inputs autocompletados
 - Botones
-- Checkboxes
+- Checkboxes y radio buttons
 - Grupos
 - Selectores de fechas
 - Diálogos

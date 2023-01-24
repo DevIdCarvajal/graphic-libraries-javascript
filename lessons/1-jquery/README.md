@@ -2,17 +2,23 @@
 
 ## Introducción
 
-jQuery es una librería de JavaScript que facilita la codificación de la mayoría de necesidades de una aplicación web frontend en el navegador (sea cual sea este), como el acceso y manipulación de elementos del árbol DOM, el manejo de eventos, animaciones y peticiones AJAX.
+jQuery es una librería para JavaScript que facilita la codificación de la mayoría de necesidades de una aplicación web frontend en el navegador (sea cual sea este).
 
-A grandes rasgos, jQuery se basa principalmente en un objeto principal que se puede referenciar mediante el símbolo dólar, seguido dependiendo del método a usar de la librería.
+Algunas de estas son el acceso y manipulación de elementos del árbol DOM, manejo de eventos, animaciones o peticiones AJAX.
 
-El caso general presenta la siguiente sintaxis:
+Su lema y por tanto el objetivo que persigue es el de *hacer más escribiendo menos*.
+
+A grandes rasgos, se basa principalmente en un objeto principal que se puede referenciar mediante el símbolo dólar, seguido dependiendo del método a usar de la librería.
+
+El caso general presenta la siguiente estructura:
 
     $(selector).method(arguments)
 
-Donde `selector` sigue la sintaxis de selectores de CSS, el `method` lo proporciona la librería, del que dependen los `arguments`.
+Donde `selector` sigue la notación de selectores de CSS, el `method` lo proporciona la librería, del que dependen los `arguments`.
 
-Algunos ejemplos:
+Debido a la extensión y popularidad de la librería en su momento, esta notación ha sido replicada en otros recursos del ecosistema (e.g., cheerio en Node.js).
+
+Ejemplos:
 
   - Manipulación del DOM
 
